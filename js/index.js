@@ -151,31 +151,31 @@
 // }
 
 // ###createElement;
-// var elWrapper = document.querySelector(".wrapper");
+var elWrapper = document.querySelector(".wrapper");
 
-// var elList = document.createElement("ul");
+var elList = document.createElement("ul");
 
-// var elItem = document.createElement("li");
+var elItem = document.createElement("li");
 
-// var elImg = document.createElement("img");
+var elImg = document.createElement("img");
 
-// var elText = document.createElement("p");
+var elText = document.createElement("p");
 
-// elWrapper.appendChild(elList);
+elWrapper.appendChild(elList);
 
-// elList.appendChild(elItem);
+elList.appendChild(elItem);
 
-// elItem.appendChild(elImg);
-// elImg.src = "https://picsum.photos/200";
-// elImg.className = "rasm";
-// elImg.id = "rasm";
-// elImg.alt = "Site logo";
-// elImg.width = "200";
-// elImg.height = "200";
+elItem.appendChild(elImg);
+elImg.src = "https://picsum.photos/200";
+elImg.className = "rasm";
+elImg.id = "rasm";
+elImg.alt = "Site logo";
+elImg.width = "200";
+elImg.height = "200";
 
-// elItem.append(elText);
-// elText.textContent = "Rasim zorakan";
-// elItem.className = "item-wrapper";
+elItem.append(elText);
+elText.textContent = "Rasim zorakan";
+elItem.className = "item-wrapper";
 
 // FUNCTIONS
 // #1
